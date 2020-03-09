@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Homepage</title>
+        <style>
+            body {
+                font-family: arial, sans-serif;
+            }
+            
+            img {
+                max-width: 100%;
+                display: block;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 185px;
+            }
+            
+            
+            
+            #search-box {
+                width: 540px;
+                height: 50px;
+                text-align: center;
+                margin-top: 47px;
+                border-radius: 25px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            
+            button {
+                margin: 18px;
+                position: relative;
+                left: 40%;
+                border-radius: 5%;
+            }
+            
+            header {
+                list-style-type: none;
+                padding: 0;
+                display: inline;
+            }
+            
+            li {
+                display: inline-block;
+            }
+            
+            .about {
+                padding-left: 10px;
+                top: 25px;
+            }
+            
+            .store {
+                padding-left: 10px;
+                top: 25px;
+            }
+            
+            .gmail {
+                text-align: center;
+                top: 0;
+                position: absolute;
+                right: 150px;
+                top: 25px;
+            }
+            
+            .images {
+                padding-right: 10px;
+                top: 0;
+                position: absolute;
+                right: 200px;
+                top: 25px;
+            }
+            
+            .searchglass {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: 510px;
+                top: 230px;
+            }
+            
+            .microphone {
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                left: 975px;
+                top: 230px;
+            }
+        
+        </style>
+    </head>
+    <body>
+       <div class="container">
+          <header>
+              <nav>
+                  <ul>
+                    <li class="about">About</li>
+                    <li class="store">Store</li>
+                    <li class="gmail">Gmail</li>
+                    <li class="images">Images</li>
+                  </ul>
+              </nav>
+          </header>
+           <img src="img/google.jpg" alt="Google" width="384" height="131">
+           <img class="searchglass" src="img/glass.jpg" alt="search glass">
+           <img class="microphone" src="img/microphone.jpg" alt="microphone">
+           <form>
+               <input id="search-box" type="text" name="search" id="search" placeholder="Search here"/>
+           </form>
+           <button id="search">Google Search</button>
+           <button id="lucky">Feeling lucky</button>
+       </div>
+        
+    </body>
+</html>
